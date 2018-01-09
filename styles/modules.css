@@ -1,0 +1,9 @@
+@import "compass/utilities/sprites";
+@import "form-elements-sprite/*.png";
+@include all-form-elements-sprite-sprites;
+
+.sprite {
+	background: url('imgs/form-elements-sprite.png') no-repeat -158px -239px;
+	width: 384px;
+	height: 160px;
+}
